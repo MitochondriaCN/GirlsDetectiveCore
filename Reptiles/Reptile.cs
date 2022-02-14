@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace GirlsDetectiveCore
 {
-    internal class Reptile
+    internal abstract class Reptile
     {
+        internal abstract void Download();
     }
 }
